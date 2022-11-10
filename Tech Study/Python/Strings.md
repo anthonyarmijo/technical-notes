@@ -30,11 +30,11 @@ print(f"Hello, {full_name.title()}!")
 This prints an f-string and calls the 'title' method on our full_name variable in order to provide title case for the stored name within our string.
 
 # Whitespace
+## Add Whitespace
 You can add whitespace into code by adding these character combinations into strings:
 `\t` - Add a tab to your string 
 `\n` - Add a newline to your string
 
-## Examples
 ```py
 print("\tPython") #adds a tab to a string
 	Python
@@ -45,6 +45,6 @@ Languages:
 	C
 	JavaScript
 ```
-
+## Remove Whitespace
 
 
