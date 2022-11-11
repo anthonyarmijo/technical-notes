@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "d697d6a8b2926143",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb85757b49098ffc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1049e8551435005e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/Python/Strings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd5d8d5edf391257",
+    "type": "split",
+    "children": [
+      {
+        "id": "250e9f9ebae40efe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "389471b5030a204a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04cc1a7f094017cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#process",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91920139bcfdd7b0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 204.5
+  },
+  "right": {
+    "id": "0d3973db43c559ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "a69150bbddfe3970",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f24e1b47e5e46bbd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "study/Python/Strings.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed40041afd0c198f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "study/Python/Strings.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e24858dd9b142183",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "471241d7831d5c1b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "study/Python/Strings.md"
+              }
+            }
+          },
+          {
+            "id": "266f835d688daf40",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "266f835d688daf40",
+  "lastOpenFiles": [
+    "README.md",
+    "Templates/Reading Template.md",
+    "Templates/Daily Journal.md",
+    "study/Python/Strings.md",
+    "study/Ansible/Reference.md",
+    "Personal/About Me.md",
+    "study/Linux/_Start Here/_Cheat Sheet.md",
+    "study/Linux/_Start Here/_The Linux Command Line.md",
+    "projects/PLEX Server.md",
+    "projects/Cloud Resume Project.md"
+  ]
+}
