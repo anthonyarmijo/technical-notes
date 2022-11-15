@@ -1,2 +1,2 @@
 # study-notes
-A repository to store my technical notes and learning reference.
+A repository for my technical notes and reference.
