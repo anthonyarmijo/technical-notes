@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb85757b49098ffc",
+        "id": "0268366708f98699",
         "type": "tabs",
         "children": [
           {
-            "id": "1049e8551435005e",
+            "id": "d635750f00767a26",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study/Python/Strings.md",
+                "file": "python/strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.5
+    "width": 200
   },
   "right": {
     "id": "0d3973db43c559ae",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/Python/Strings.md",
+                "file": "python/strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/Python/Strings.md",
+                "file": "python/strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/Python/Strings.md"
+                "file": "python/strings.md"
               }
             }
           },
@@ -145,17 +145,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "266f835d688daf40",
+  "active": "d635750f00767a26",
   "lastOpenFiles": [
     "README.md",
-    "Templates/Reading Template.md",
-    "Templates/Daily Journal.md",
-    "study/Python/Strings.md",
-    "study/Ansible/Reference.md",
-    "Personal/About Me.md",
-    "study/Linux/_Start Here/_Cheat Sheet.md",
-    "study/Linux/_Start Here/_The Linux Command Line.md",
-    "projects/PLEX Server.md",
-    "projects/Cloud Resume Project.md"
+    "images/Pasted image 20221015121057.png",
+    "images/shortcuts.png",
+    "images/permissions.png",
+    "images/Pasted image 20220930101219.png",
+    "images/Pasted image 20221015113940.png",
+    "images/Pasted image 20221015111736.png",
+    "images/Pasted image 20220929132912.png",
+    "images/Pasted image 20220929132550.png",
+    "images/Pasted image 20220929114621.png"
   ]
 }
