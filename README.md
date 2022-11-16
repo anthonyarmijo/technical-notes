@@ -1,2 +1,2 @@
-# study-notes
+# technical-notes
 A repository for my technical notes and reference.

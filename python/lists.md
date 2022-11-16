@@ -9,25 +9,27 @@ print(bicycles)
 ```
 
 ## Access individual items
-
-Simply append the item ==index== value after your variable:
+- Simply append the item ==index== value after your variable
+- Note that index numbers start at 0
 ```py
 print(bicycles[0])
 trek
 ```
 
-> Note that index numbers start at 0
 
-Python has a special syntax for accessing the last element in a list; that is using index number `-1`.
 ```py
+# Python has a special syntax for accessing the last element in a list;
+# that is using index number `-1`.
 print(bicycles[-1])
 specialized
 ```
 
 > `-2` would return the second to last item in a list.
 
-# Modfying List Elements
-## Modify elements
+
+
+# Editing Lists
+## Modify list
 Simply set the variable (with its index) to the new value:
 ```py
 motorcycles = ['honda', 'yamaha', 'suzuki']
@@ -36,24 +38,25 @@ print(motorcycles)
 motorcycles[0] = 'ducati'
 ```
 
-## Adding elements
-Using the motorcycle example, this code will add each item to the end of the once empty list:
+## Add list items
+
+- Use the `append()` method to add items to the end of the list.
 ```py
 motorcycles = []
 motorcycles.append('honda')
 motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 ```
-## Inserting elements
-Similar to adding items, but you can insert items at any location using an index number:
+
+- Using the `insert()` method, you can insert items at any location using index number. 
 ```py
 motorcycles = ['honda', 'yamaha', 'suzuki']
 
 motorcycles.insert(0, 'ducati')
 # this adds 'ducati' to the first position in front of 'honda' and shifts everything right.
 ```
-## Removing elements
 
+## Delete list items
 ### del statement
 Rather than using a method, you can use the `del` statement to remove items using an index number:
 ```py
@@ -93,8 +96,8 @@ motorcycles.remove('yamaha')
 
 > Note that `remove()` only deletes the first occurence of that value. If there are duplicates, you'll need to use a loop.
 
-# Organizing a list
 
+# Organizing a list
 ## Sort a list (permanently) with sort() method
 - The `sort()` method simply changes list to be in alphabetical order.
 - You can pass the `reverse=True` argument to this method if you want to use reverse alphabetical order.
@@ -136,4 +139,3 @@ cars = ['bmw', 'audi', 'toyota', 'suburu']
 len(cars)
 4
 ```
-## Avoid index errors

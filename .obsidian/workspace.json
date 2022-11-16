@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "76e325519e76b5dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "764a16e1dbb7609d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb65eede6d20217f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/loops.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b608c9b359e334b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b5abab932c6d34f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "619dad81a169c2e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "71c8bac920e63ab4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80edb4e0a7cdc4c0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200.5110321044922
+  },
+  "right": {
+    "id": "97d15ca36e7dcf1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "bda9a85e75c76483",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c21b57f8577ad19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "python/loops.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a49ed8cb15c7e573",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "python/loops.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4dddabe219f4edd8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6f04c371cec48370",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "python/loops.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fb65eede6d20217f",
+  "lastOpenFiles": [
+    "python/loops.md",
+    "python/lists.md"
+  ]
+}
