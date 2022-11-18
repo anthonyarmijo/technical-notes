@@ -4,22 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0268366708f98699",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d635750f00767a26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/lists.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
+        "id": "7f1620225c71de9a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Linux/Part II/customizing the command prompt.md",
+            "mode": "source",
+            "source": false
           }
-        ]
+        }
       }
     ],
     "direction": "vertical"
@@ -37,9 +31,7 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
+              "state": {}
             }
           },
           {
@@ -69,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302
   },
   "right": {
     "id": "0d3973db43c559ae",
@@ -85,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/lists.md",
+                "file": "Linux/Part II/customizing the command prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/lists.md",
+                "file": "Linux/Part II/customizing the command prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/lists.md"
+                "file": "Linux/Part II/customizing the command prompt.md"
               }
             }
           },
@@ -136,34 +128,26 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "2b5e0d8254d0b06c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "d635750f00767a26",
+  "active": "7f1620225c71de9a",
   "lastOpenFiles": [
-    "python/loops.md",
-    "python/lists.md",
-    "python/strings.md",
-    "README.md",
-    "images/Pasted image 20221015121057.png",
-    "images/shortcuts.png",
-    "images/permissions.png",
-    "images/Pasted image 20220930101219.png",
-    "images/Pasted image 20221015113940.png",
-    "images/Pasted image 20221015111736.png"
+    "Linux/Part II/environment.md",
+    "Linux/Part II/customizing the command prompt.md",
+    "Linux/Part II/Untitled.md",
+    "Linux/Part II/vi.md",
+    "Linux/_Start Here/_The Linux Command Line.md",
+    "Linux/_Start Here/_Cheat Sheet.md",
+    "Linux/Part I/cd, ls, less, & wIldcards.md",
+    "Linux/Part I/pipelines.md",
+    "Linux/Part I/echo, expansions, & quoting.md",
+    "Linux/Part I/cp, .....md"
   ]
 }

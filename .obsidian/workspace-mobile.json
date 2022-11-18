@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "d697d6a8b2926143",
+    "type": "split",
+    "children": [
+      {
+        "id": "15edd281bd37a509",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7e14467025f97af",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ae7b202d011c958",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f64e735bebc891f3",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "892f0e38d6203bf7",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "514d3bab274cd1d2",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "f154b6a79978a9ba",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "03408022554d718c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d45d91bd34a8d9b8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "9e3178499d06463d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "781fc4ef92948913",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "a7e14467025f97af",
+  "lastOpenFiles": [
+    "python/strings.md",
+    "Linux/Part II/environment.md",
+    "Linux/Part II/customizing the command prompt.md",
+    "Linux/Part II/Untitled.md",
+    "Linux/Part II/vi.md",
+    "Linux/_Start Here/_The Linux Command Line.md",
+    "Linux/_Start Here/_Cheat Sheet.md",
+    "Linux/Part I/cd, ls, less, & wIldcards.md",
+    "Linux/Part I/pipelines.md",
+    "Linux/Part I/echo, expansions, & quoting.md"
+  ]
+}
