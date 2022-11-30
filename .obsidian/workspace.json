@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/loops.md",
-                "mode": "source",
+                "file": "linux/2_config_environment/vi.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/loops.md",
+                "file": "linux/2_config_environment/vi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/loops.md",
+                "file": "linux/2_config_environment/vi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/loops.md"
+                "file": "linux/2_config_environment/vi.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "fb65eede6d20217f",
   "lastOpenFiles": [
+    "linux/_start_here/cheat_sheet.md",
     "python/loops.md",
     "python/lists.md"
   ]
