@@ -1,5 +1,3 @@
-# Basics
-
 - Lists are a collection of items in a particular order
 - Square brackets indicate a list: `[item1, item2, item3]`
 - You can print a list very simply:

@@ -1,6 +1,10 @@
 /*───────────────────────────────────────────────────────
 THINGS
+<<<<<<< HEAD
 Version 2.0.2
+=======
+Version 2.0.1
+>>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
 Created by @colineckert
 
 Readme:
@@ -179,7 +183,11 @@ body {
   --color-base-10: #282c34; /* code blocks */
   --color-base-20: #181c20; /* top unselected unfocused nav */
   --color-base-25: #181c20;
+<<<<<<< HEAD
   --color-base-30: #35393e;
+=======
+  --color-base-30: #252b32; /* dividing lines */
+>>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
   --color-base-35: #3f3f3f;
   --color-base-40: #555;
   --color-base-50: #666; /* unfocused text -- good */
@@ -241,7 +249,11 @@ body {
   --atom-blue: #61afef;
   --atom-yellow: #e5c07b;
 }
+<<<<<<< HEAD
 /* Make exported PDFs render correctly */
+=======
+/* Make exported PDFs render correctly */ 
+>>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
 @media print {
   .theme-dark {
     --highlight-mix-blend-mode: darken;

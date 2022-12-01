@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"name": "Minimal",
 	"version": "6.1.10",
@@ -5,3 +6,12 @@
 	"author": "@kepano",
 	"authorUrl": "https://twitter.com/kepano"
 }
+=======
+{
+	"name": "Minimal",
+	"version": "6.1.9",
+	"minAppVersion": "0.16.0",
+	"author": "@kepano",
+	"authorUrl": "https://twitter.com/kepano"
+}
+>>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0

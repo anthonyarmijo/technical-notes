@@ -13,6 +13,13 @@ Some other methods include:
 name.upper() #changes the variable (name) to uppercase
 name.lower() #changes the variable (name) to lowercase
 ```
+
+## Chaining Methods
+- Note that you can chain multiple methods in a single line of code:
+```py
+name = input("What's your name?").strip().title()
+```
+
 # F-Strings
 ```py
 first_name = "ada"
@@ -62,7 +69,15 @@ favorite_language.strip
 ```
 
 # Misc
-## Removing Prefixes
+## split() method
+- You can split strings into mutliple variables:
+```py
+name = ("Anthony Armijo")
+first, last = name.split(" ")
+# whatever is in the split method is the character that Python will look for to split the sring, in this case a single space.
+```
+## removeprefix() method
+- This method allows you to remove a specific part of **the beginning** of a string.
 ```py
 my_url = 'https://google.com'
 my_url.removeprefix('https://')
