@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/lists.md",
+                "file": "python/lists_basics.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8057dfff9db00b7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/lists_loops.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d1618f7cb2011ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/2_config_environment/environment.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 307.5110321044922
   },
   "right": {
     "id": "0d3973db43c559ae",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/lists.md",
+                "file": "linux/2_config_environment/environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/lists.md",
+                "file": "linux/2_config_environment/environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/lists.md"
+                "file": "linux/2_config_environment/environment.md"
               }
             }
           },
@@ -153,17 +178,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d635750f00767a26",
+  "active": "8d1618f7cb2011ac",
   "lastOpenFiles": [
-    "python/loops.md",
-    "python/lists.md",
+    "linux/2_config_environment/searching for files.md",
+    "linux/2_config_environment/environment.md",
+    "linux/2_config_environment/customizing the command prompt.md",
+    "linux/2_config_environment/vi.md",
+    "python/numbers.md",
+    "python/lists_basics.md",
     "python/strings.md",
-    "README.md",
-    "images/Pasted image 20221015121057.png",
-    "images/shortcuts.png",
-    "images/permissions.png",
-    "images/Pasted image 20220930101219.png",
-    "images/Pasted image 20221015113940.png",
-    "images/Pasted image 20221015111736.png"
+    "python/lists_slices.md",
+    "python/lists_loops.md",
+    "README.md"
   ]
 }
