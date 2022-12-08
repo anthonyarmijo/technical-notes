@@ -4,46 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "0268366708f98699",
+        "id": "c806992215cdc73a",
         "type": "tabs",
         "children": [
           {
-            "id": "d635750f00767a26",
+            "id": "eb4145901cc58153",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "linux/2_config_environment/vi.md",
-                "mode": "preview",
-=======
-                "file": "python/lists_basics.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8057dfff9db00b7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/lists_loops.md",
+                "file": "microsoft/w10_troubleshooting/_reference.md",
                 "mode": "source",
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
                 "source": false
               }
             }
           },
           {
-            "id": "8d1618f7cb2011ac",
+            "id": "9fdf566761b0b54b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/2_config_environment/environment.md",
-                "mode": "preview",
+                "file": "microsoft/w10_troubleshooting/Group Policy Client service failed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "588d1a15cd583622",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "microsoft/install apps with chocolatey.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -99,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5110321044922
+    "width": 248.5
   },
   "right": {
     "id": "0d3973db43c559ae",
@@ -115,11 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "linux/2_config_environment/vi.md",
-=======
-                "file": "linux/2_config_environment/environment.md",
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
+                "file": "microsoft/install apps with chocolatey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,11 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "linux/2_config_environment/vi.md",
-=======
-                "file": "linux/2_config_environment/environment.md",
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
+                "file": "microsoft/install apps with chocolatey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,11 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "linux/2_config_environment/vi.md"
-=======
-                "file": "linux/2_config_environment/environment.md"
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
+                "file": "microsoft/install apps with chocolatey.md"
               }
             }
           },
@@ -178,40 +161,26 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "2b5e0d8254d0b06c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "8d1618f7cb2011ac",
+  "active": "588d1a15cd583622",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "linux/_start_here/cheat_sheet.md",
-    "python/loops.md",
-    "python/lists.md"
-=======
-    "linux/2_config_environment/searching for files.md",
-    "linux/2_config_environment/environment.md",
-    "linux/2_config_environment/customizing the command prompt.md",
-    "linux/2_config_environment/vi.md",
-    "python/numbers.md",
-    "python/lists_basics.md",
+    "microsoft/w10_troubleshooting/Group Policy Client service failed.md",
+    "microsoft/w10_troubleshooting/_reference.md",
+    "README.md",
+    "07December2022_1670437600.png",
+    "obsidian/reference.md",
     "python/strings.md",
-    "python/lists_slices.md",
-    "python/lists_loops.md",
-    "README.md"
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
+    "linux/2_config_environment/environment.md",
+    "python/lists_basics.md",
+    "Linux/Part II/environment.md",
+    "Linux/Part II/customizing the command prompt.md"
   ]
 }
