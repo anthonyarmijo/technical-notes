@@ -1,10 +1,6 @@
 /*───────────────────────────────────────────────────────
 THINGS
-<<<<<<< HEAD
-Version 2.0.2
-=======
-Version 2.0.1
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
+Version 2.0.6
 Created by @colineckert
 
 Readme:
@@ -75,7 +71,8 @@ body {
 /* COLOR SCHEMES
 ────────────────────────────────────────────────────── */
 
-.theme-light {
+.theme-light,
+body.theme-light.is-mobile {
   color-scheme: light;
   --highlight-mix-blend-mode: darken;
   --mono-rgb-0: 255, 255, 255;
@@ -164,7 +161,8 @@ body {
   --atom-orange: #986800;
 }
 
-.theme-dark {
+.theme-dark,
+body.theme-dark.is-mobile {
   color-scheme: dark;
   --highlight-mix-blend-mode: lighten;
   --mono-rgb-0: 0, 0, 0;
@@ -183,14 +181,10 @@ body {
   --color-base-10: #282c34; /* code blocks */
   --color-base-20: #181c20; /* top unselected unfocused nav */
   --color-base-25: #181c20;
-<<<<<<< HEAD
   --color-base-30: #35393e;
-=======
-  --color-base-30: #252b32; /* dividing lines */
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
   --color-base-35: #3f3f3f;
   --color-base-40: #555;
-  --color-base-50: #666; /* unfocused text -- good */
+  --color-base-50: #666; /* unfocused text */
   --color-base-60: #999;
   --color-base-70: #bababa;
   --color-base-100: #dadada;
@@ -249,11 +243,12 @@ body {
   --atom-blue: #61afef;
   --atom-yellow: #e5c07b;
 }
-<<<<<<< HEAD
+
+body.is-mobile.theme-dark.mobile-black-background {
+  --color-base-00: black;
+}
+
 /* Make exported PDFs render correctly */
-=======
-/* Make exported PDFs render correctly */ 
->>>>>>> 4e2e4a510ce9e21c3fd9b993db5198ca26aa2aa0
 @media print {
   .theme-dark {
     --highlight-mix-blend-mode: darken;
@@ -263,8 +258,8 @@ body {
 }
 
 /* H2 styling */
-h2,
-.HyperMD-header.HyperMD-header-2.cm-line {
+body.h2-underline h2,
+body.h2-underline .HyperMD-header.HyperMD-header-2.cm-line {
   border-bottom: 2px solid var(--background-modifier-border);
   width: 100%;
   padding-bottom: 2px;
@@ -285,8 +280,11 @@ body:not(.default-font-color) span.cm-quote.cm-quote-1 {
 
 /* Bold font */
 body:not(.default-font-color) strong,
-body:not(.default-font-color) .cm-strong {
+body:not(.default-font-color) span:not(.cm-highlight).cm-strong {
   color: var(--strong-color);
+}
+body:not(.default-font-color) mark > strong {
+  color: var(--text-normal);
 }
 
 /* Italics */
@@ -323,38 +321,55 @@ img {
   background: var(--blue);
 }
 
+/* Highlight styles */
+span.cm-highlight,
+.markdown-preview-view mark,
+span.search-result-file-matched-text {
+  padding: 0.05em 0.15em;
+  border-radius: 0.2em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 /* ------------------- */
 /* One Dark Syntax Coloring */
 /* Source: https://github.com/AGMStudio/prism-theme-one-dark */
 /* ------------------- */
-
-.token.comment,
+.theme-light .token.comment {
+  color: #ababab;
+}
+.theme-dark .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
   color: var(--atom-gray-1);
 }
 .token.punctuation,
-.cm-hmd-codeblock,
-.cm-bracket {
-  color: var(--atom-gray-2);
+.token.plain-text,
+.token.parameter,
+.token.dom.variable,
+.cm-hmd-codeblock.cm-bracket {
+  color: var(--atom-gray-2) !important;
 }
 code[class*='language-'],
 .token.selector,
 .token.tag,
-.token.parameter,
+.token.property,
 .token.property-access,
-.cm-def,
+.token.dom.variable,
+.cm-hmd-codeblock.cm-tag,
+.cm-variable,
 .cm-property,
 .cm-qualifier {
   color: var(--atom-red);
 }
 .token.boolean,
 .token.number,
-.token.constant,
 .token.symbol,
+.token.builtin,
 .token.attr-name,
 .token.deleted,
+.cm-attribute,
 .cm-number,
 .cm-property.cm-string {
   color: var(--atom-orange) !important;
@@ -362,9 +377,9 @@ code[class*='language-'],
 .token.string,
 .token.char,
 .token.attr-value,
-.token.builtin,
 .token.inserted,
-.cm-hmd-codeblock.cm-string {
+.cm-hmd-codeblock.cm-string,
+.cm-hmd-codeblock.cm-string-2 {
   color: var(--atom-green);
 }
 .token.operator,
@@ -381,15 +396,15 @@ code[class*='language-'],
   color: var(--atom-purple);
 }
 .token.function,
-.token.macro.property,
-.cm-variable {
+.token.method,
+.token.macro.property {
   color: var(--atom-blue);
 }
 .token.class-name,
-.token.property,
+.token.constant,
 .cm-atom,
 code .cm-tag,
-.theme-dark .cm-variable-2,
+.cm-variable-2,
 .cm-type {
   color: var(--atom-yellow);
 }
@@ -606,6 +621,12 @@ settings:
         level: 2
         collapsed: true
     -
+        title: Black mobile background
+        description: Change mobile editor background to default theme black
+        id: mobile-black-background
+        type: class-toggle
+        default: false
+    -
         title: Disable mobile floating-action button
         description: Revert placement of edit/preview button to default in header (mobile)
         id: floating-button-off
@@ -664,13 +685,13 @@ settings:
         title: Inline code blocks font color (Light mode)
         type: variable-color
         format: hex
-        default: '#5C5C5C'
+        default: '#BEC6CF'
     -
         id: code-color-d
         title: Inline code blocks font color (Dark mode)
         type: variable-color
         format: hex
-        default: '#A6A6A6'
+        default: '#555E68'
     - 
         id: tag-background-color-l
         title: Tag background color (Light mode)
@@ -750,6 +771,12 @@ settings:
         format: hex
         default: '#2E80F2'
     - 
+        id: h2-underline
+        title: H2 underline
+        description: Toggle H2 underline (border-bottom)
+        type: class-toggle
+        default: true
+    -
         id: level-3-headings
         title: Level 3 Headings
         type: heading

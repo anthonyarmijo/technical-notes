@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft/w10_troubleshooting/_reference.md",
+                "file": "microsoft/w10_troubleshooting/_quick-commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft/install apps with chocolatey.md",
+                "file": "microsoft/powershell_quick_ref.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 306.5
   },
   "right": {
     "id": "0d3973db43c559ae",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "microsoft/install apps with chocolatey.md",
+                "file": "microsoft/powershell_quick_ref.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "microsoft/install apps with chocolatey.md",
+                "file": "microsoft/powershell_quick_ref.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "microsoft/install apps with chocolatey.md"
+                "file": "microsoft/powershell_quick_ref.md"
               }
             }
           },
@@ -172,15 +172,15 @@
   },
   "active": "588d1a15cd583622",
   "lastOpenFiles": [
+    "microsoft/install apps with chocolatey.md",
+    "microsoft/powershell_quick_ref.md",
     "microsoft/w10_troubleshooting/Group Policy Client service failed.md",
-    "microsoft/w10_troubleshooting/_reference.md",
+    "microsoft/w10_troubleshooting/_quick-commands.md",
     "README.md",
     "07December2022_1670437600.png",
     "obsidian/reference.md",
     "python/strings.md",
     "linux/2_config_environment/environment.md",
-    "python/lists_basics.md",
-    "Linux/Part II/environment.md",
-    "Linux/Part II/customizing the command prompt.md"
+    "python/lists_basics.md"
   ]
 }
