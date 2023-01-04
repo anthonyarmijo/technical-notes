@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eb4145901cc58153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "microsoft/w10_troubleshooting/_quick-commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9fdf566761b0b54b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "microsoft/w10_troubleshooting/Group Policy Client service failed.md",
-                "mode": "source",
+                "file": "microsoft/powershell_quick_ref.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -42,9 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0718a2e49967fc1d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 374.5
   },
   "right": {
     "id": "0d3973db43c559ae",
@@ -110,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "microsoft/w10_troubleshooting/_quick-commands.md",
+                "file": "microsoft/powershell_quick_ref.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "microsoft/w10_troubleshooting/_quick-commands.md",
+                "file": "microsoft/powershell_quick_ref.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "microsoft/w10_troubleshooting/_quick-commands.md"
+                "file": "microsoft/powershell_quick_ref.md"
               }
             }
           },
@@ -170,12 +167,23 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "588d1a15cd583622",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "9fdf566761b0b54b",
   "lastOpenFiles": [
-    "microsoft/powershell_quick_ref.md",
-    "microsoft/install apps with chocolatey.md",
     "microsoft/w10_troubleshooting/Group Policy Client service failed.md",
     "microsoft/w10_troubleshooting/_quick-commands.md",
+    "microsoft/powershell_quick_ref.md",
+    "microsoft/install apps with chocolatey.md",
     "README.md",
     "07December2022_1670437600.png",
     "obsidian/reference.md",

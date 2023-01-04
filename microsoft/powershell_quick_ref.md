@@ -3,7 +3,7 @@
 
 ```powershell
 # wmiobject method
-Get-WmiObject -Class WIn32_Product
+Get-WmiObject -Class Win32_Product
 
 # get apps from specific vendor
 Get-WmiObject -Class Win32_Product | where vendor -eq Microsoft | Select Name, Version
